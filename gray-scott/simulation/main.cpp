@@ -160,6 +160,7 @@ int main(int argc, char **argv)
         timer_write.start();
 #endif
 
+        //Write every plotgap
         if (it % settings.plotgap == 0)
         {
             if (rank == 0)
@@ -173,11 +174,6 @@ int main(int argc, char **argv)
             writer_main.Wwrite(it, sim, fd);
         }
 
-        if (settings.checkpoint && (it % settings.checkpoint_freq) == 0)
-        {
-            //@@@@@@@@@@
-            //WriteCkpt(comm, it, settings, sim, io_ckpt);
-        }
 
 #ifdef ENABLE_TIMERS
         double time_write = timer_write.stop();
@@ -190,7 +186,7 @@ int main(int argc, char **argv)
 #endif
     }
 
-    //@@@@@@@@@@
+    //Close the file
     writer_main.Wclose(fd);
 
 #ifdef ENABLE_TIMERS
