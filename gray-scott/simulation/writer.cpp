@@ -23,7 +23,7 @@ Writer::Writer(const Settings &settings, const GrayScott &sim, adios2::IO io)
 
 void Writer::Wopen(const std::string &fname, bool append)
 {
-    const char *path="/home/gp.sc.cc.tohoku.ac.jp/tseng/ADIOS2/Test/Tutorial/VE/share/adios2-examples/gray-scott/gs.bp/data.0";
+     //Open thre files as original ADIOS2 did, include data.0 as simulated result, md.0 and md.idx as adios2 setting files
     adios2::Mode mode = adios2::Mode::Write;
     if (append)
     {
@@ -42,37 +42,21 @@ void Writer::Wwrite(int step, const GrayScott &sim, int fd)
     std::vector<double> u = sim.u_noghost();
     std::vector<double> v = sim.v_noghost();
 
-    //if (!append)
-    //{
-        //@@@@@
-        lseek(fd, step * (sizeof(u.size() * sizeof(double) + sizeof(v.size() * sizeof(double) + sizeof(int)))), SEEK_SET);
-        write(fd, &step, sizeof(int));
-        write(fd, u.data(), sizeof(u.size() * sizeof(double)));
-        write(fd, v.data(), sizeof(v.size() * sizeof(double)));
-    //}
-    //else
-    //{
-        //@@@@@
-        //write(open("gs.bp", O_APPEND | O_WRONLY | O_TRUNC, 0644), &step, sizeof(int));
-        //write(open("gs.bp", O_APPEND | O_WRONLY | O_TRUNC, 0644), &var_u, sizeof(u.data()));
-        //write(open("gs.bp", O_APPEND | O_WRONLY | O_TRUNC, 0644), &var_v, sizeof(v.data()));
-    //}
+     //Write file into data.0
+     //pointer
+     lseek(fd, step * (sizeof(u.size() * sizeof(double) + sizeof(v.size() * sizeof(double) + sizeof(int)))), SEEK_SET);
+     //Write simulation data
+     write(fd, &step, sizeof(int));
+     write(fd, u.data(), sizeof(u.size() * sizeof(double)));
+     write(fd, v.data(), sizeof(v.size() * sizeof(double)));
 
 }
 
 void Writer::Wclose(int fd) 
 { 
-    //@@@@@@@
-    //writer.Close(); 
-    //if (append)
-    //{
-        //@@@@@
-        close(fd);
-    //}
-    //else
-    //{
-        //@@@@@
-    //    close(open("gs.bp", O_APPEND | O_WRONLY, 0644));
-    //}
+    //Close file (ADIOS2's function, cause rewrite data.0)
+    //writer.Close();
+    //POSIX close file
+    close(fd);
     
 }
