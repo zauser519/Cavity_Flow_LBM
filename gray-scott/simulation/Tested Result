@@ -1,0 +1,916 @@
+========================================
+grid:             200x200x200
+restart:          no
+steps:            1000
+plotgap:          10
+F:                0.01
+k:                0.05
+dt:               2
+Du:               0.2
+Dv:               0.1
+noise:            1e-07
+output:           gs.bp
+adios_config:     adios2.xml
+process layout:   2x2x1
+local grid size:  100x100x200
+========================================
+Simulation at step 10 writing output step     1
+perrank 0 perstep 0
+perrank 96000012 perstep 0
+perrank 32000004 perstep 0
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 64000008 perstep 0
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 20 writing output step     2
+perrank 0 perstep 192000024
+perrank 96000012 perstep 192000024
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 32000004 perstep 192000024
+perrank 64000008 perstep 192000024
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 30 writing output step     3
+perrank 32000004 perstep 384000048
+perrank 96000012 perstep 384000048
+perrank 0 perstep 384000048
+perrank 64000008 perstep 384000048
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 40 writing output step     4
+perrank 32000004 perstep 576000072
+perrank 64000008 perstep 576000072
+perrank 96000012 perstep 576000072
+perrank 0 perstep 576000072
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 50 writing output step     5
+perrank 96000012 perstep 768000096
+perrank 32000004 perstep 768000096
+perrank 0 perstep 768000096
+perrank 64000008 perstep 768000096
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 60 writing output step     6
+perrank 0 perstep 960000120
+perrank 64000008 perstep 960000120
+perrank 32000004 perstep 960000120
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep 960000120
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 70 writing output step     7
+perrank 32000004 perstep 1152000144
+perrank 96000012 perstep 1152000144
+perrank 0 perstep 1152000144
+perrank 64000008 perstep 1152000144
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 80 writing output step     8
+perrank 0 perstep 1344000168
+perrank 32000004 perstep 1344000168
+perrank 64000008 perstep 1344000168
+perrank 96000012 perstep 1344000168
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 90 writing output step     9
+perrank 64000008 perstep 1536000192
+perrank 32000004 perstep 1536000192
+perrank 0 perstep 1536000192
+perrank 96000012 perstep 1536000192
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 100 writing output step     10
+perrank 0 perstep 1728000216
+perrank 32000004 perstep 1728000216
+perrank 64000008 perstep 1728000216
+perrank 96000012 perstep 1728000216
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 110 writing output step     11
+perrank 0 perstep 1920000240
+perrank 96000012 perstep 1920000240
+perrank 64000008 perstep 1920000240
+perrank 32000004 perstep 1920000240
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 120 writing output step     12
+perrank 0 perstep 2112000264
+perrank 64000008 perstep 2112000264
+perrank 96000012 perstep 2112000264
+perrank 32000004 perstep 2112000264
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 130 writing output step     13
+perrank 64000008 perstep -1990967008
+perrank 32000004 perstep -1990967008
+perrank 0 perstep -1990967008
+perrank 96000012 perstep -1990967008
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 140 writing output step     14
+perrank 64000008 perstep -1798966984
+perrank 32000004 perstep -1798966984
+perrank 96000012 perstep -1798966984
+perrank 0 perstep -1798966984
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 150 writing output step     15
+perrank 96000012 perstep -1606966960
+perrank 32000004 perstep -1606966960
+perrank 64000008 perstep -1606966960
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 0 perstep -1606966960
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 160 writing output step     16
+perrank 64000008 perstep -1414966936
+perrank 32000004 perstep -1414966936
+perrank 0 perstep -1414966936
+perrank 96000012 perstep -1414966936
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 170 writing output step     17
+perrank 0 perstep -1222966912
+perrank 96000012 perstep -1222966912
+perrank 32000004 perstep -1222966912
+perrank 64000008 perstep -1222966912
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 180 writing output step     18
+perrank 32000004 perstep -1030966888
+perrank 0 perstep -1030966888
+perrank 96000012 perstep -1030966888
+perrank 64000008 perstep -1030966888
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 190 writing output step     19
+perrank 0 perstep -838966864
+perrank 96000012 perstep -838966864
+perrank 32000004 perstep -838966864
+perrank 64000008 perstep -838966864
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 200 writing output step     20
+perrank 96000012 perstep -646966840
+perrank 0 perstep -646966840
+perrank 32000004 perstep -646966840
+perrank 64000008 perstep -646966840
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 210 writing output step     21
+perrank 0 perstep -454966816
+perrank 64000008 perstep -454966816
+perrank 32000004 perstep -454966816
+perrank 96000012 perstep -454966816
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 220 writing output step     22
+perrank 0 perstep -262966792
+perrank 64000008 perstep -262966792
+perrank 32000004 perstep -262966792
+perrank 96000012 perstep -262966792
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 230 writing output step     23
+perrank 0 perstep -70966768
+perrank 64000008 perstep -70966768
+perrank 32000004 perstep -70966768
+perrank 96000012 perstep -70966768
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 240 writing output step     24
+perrank 0 perstep 121033256
+perrank 64000008 perstep 121033256
+perrank 32000004 perstep 121033256
+perrank 96000012 perstep 121033256
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 250 writing output step     25
+perrank 0 perstep 313033280
+perrank 96000012 perstep 313033280
+perrank 32000004 perstep 313033280
+perrank 64000008 perstep 313033280
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 260 writing output step     26
+perrank 96000012 perstep 505033304
+perrank 0 perstep 505033304
+perrank 32000004 perstep 505033304
+perrank 64000008 perstep 505033304
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 270 writing output step     27
+perrank 96000012 perstep 697033328
+perrank 0 perstep 697033328
+perrank 32000004 perstep 697033328
+perrank 64000008 perstep 697033328
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 280 writing output step     28
+perrank 96000012 perstep 889033352
+perrank 0 perstep 889033352
+perrank 32000004 perstep 889033352
+perrank 64000008 perstep 889033352
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 290 writing output step     29
+perrank 0 perstep 1081033376
+perrank 96000012 perstep 1081033376
+perrank 64000008 perstep 1081033376
+perrank 32000004 perstep 1081033376
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 300 writing output step     30
+perrank 0 perstep 1273033400
+perrank 96000012 perstep 1273033400
+perrank 64000008 perstep 1273033400
+perrank 32000004 perstep 1273033400
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 310 writing output step     31
+perrank 0 perstep 1465033424
+perrank 32000004 perstep 1465033424
+perrank 96000012 perstep 1465033424
+perrank 64000008 perstep 1465033424
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 320 writing output step     32
+perrank 32000004 perstep 1657033448
+perrank 64000008 perstep 1657033448
+perrank 0 perstep 1657033448
+perrank 96000012 perstep 1657033448
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 330 writing output step     33
+perrank 0 perstep 1849033472
+perrank 96000012 perstep 1849033472
+perrank 32000004 perstep 1849033472
+perrank 64000008 perstep 1849033472
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 340 writing output step     34
+perrank 0 perstep 2041033496
+perrank 64000008 perstep 2041033496
+perrank 96000012 perstep 2041033496
+perrank 32000004 perstep 2041033496
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 350 writing output step     35
+perrank 32000004 perstep -2061933776
+perrank 64000008 perstep -2061933776
+perrank 96000012 perstep -2061933776
+perrank 0 perstep -2061933776
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 360 writing output step     36
+perrank 0 perstep -1869933752
+perrank 64000008 perstep -1869933752
+perrank 32000004 perstep -1869933752
+perrank 96000012 perstep -1869933752
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 370 writing output step     37
+perrank 64000008 perstep -1677933728
+perrank 0 perstep -1677933728
+perrank 32000004 perstep -1677933728
+perrank 96000012 perstep -1677933728
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 380 writing output step     38
+perrank 0 perstep -1485933704
+perrank 32000004 perstep -1485933704
+perrank 64000008 perstep -1485933704
+perrank 96000012 perstep -1485933704
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 390 writing output step     39
+perrank 0 perstep -1293933680
+perrank 32000004 perstep -1293933680
+perrank 64000008 perstep -1293933680
+perrank 96000012 perstep -1293933680
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 400 writing output step     40
+perrank 0 perstep -1101933656
+perrank 64000008 perstep -1101933656
+perrank 32000004 perstep -1101933656
+perrank 96000012 perstep -1101933656
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 410 writing output step     41
+perrank 64000008 perstep -909933632
+perrank 0 perstep -909933632
+perrank 32000004 perstep -909933632
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep -909933632
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 420 writing output step     42
+perrank 64000008 perstep -717933608
+perrank 0 perstep -717933608
+perrank 32000004 perstep -717933608
+perrank 96000012 perstep -717933608
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 430 writing output step     43
+perrank 0 perstep -525933584
+perrank 32000004 perstep -525933584
+perrank 96000012 perstep -525933584
+perrank 64000008 perstep -525933584
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 440 writing output step     44
+perrank 0 perstep -333933560
+perrank 96000012 perstep -333933560
+perrank 32000004 perstep -333933560
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 64000008 perstep -333933560
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 450 writing output step     45
+perrank 0 perstep -141933536
+perrank 96000012 perstep -141933536
+perrank 32000004 perstep -141933536
+perrank 64000008 perstep -141933536
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 460 writing output step     46
+perrank 0 perstep 50066488
+perrank 64000008 perstep 50066488
+perrank 96000012 perstep 50066488
+perrank 32000004 perstep 50066488
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 470 writing output step     47
+perrank 0 perstep 242066512
+perrank 64000008 perstep 242066512
+perrank 96000012 perstep 242066512
+perrank 32000004 perstep 242066512
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 480 writing output step     48
+perrank 0 perstep 434066536
+perrank 96000012 perstep 434066536
+perrank 32000004 perstep 434066536
+perrank 64000008 perstep 434066536
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 490 writing output step     49
+perrank 0 perstep 626066560
+perrank 64000008 perstep 626066560
+perrank 32000004 perstep 626066560
+perrank 96000012 perstep 626066560
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 500 writing output step     50
+perrank 0 perstep 818066584
+perrank 32000004 perstep 818066584
+perrank 96000012 perstep 818066584
+perrank 64000008 perstep 818066584
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 510 writing output step     51
+perrank 0 perstep 1010066608
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 32000004 perstep 1010066608
+perrank 64000008 perstep 1010066608
+perrank 96000012 perstep 1010066608
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 520 writing output step     52
+perrank 0 perstep 1202066632
+perrank 96000012 perstep 1202066632
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 64000008 perstep 1202066632
+perrank 32000004 perstep 1202066632
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 530 writing output step     53
+perrank 0 perstep 1394066656
+perrank 32000004 perstep 1394066656
+perrank 96000012 perstep 1394066656
+perrank 64000008 perstep 1394066656
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 540 writing output step     54
+perrank 0 perstep 1586066680
+perrank 96000012 perstep 1586066680
+perrank 64000008 perstep 1586066680
+perrank 32000004 perstep 1586066680
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 550 writing output step     55
+perrank 0 perstep 1778066704
+perrank 96000012 perstep 1778066704
+perrank 64000008 perstep 1778066704
+perrank 32000004 perstep 1778066704
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 560 writing output step     56
+perrank 32000004 perstep 1970066728
+perrank 64000008 perstep 1970066728
+perrank 96000012 perstep 1970066728
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 0 perstep 1970066728
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 570 writing output step     57
+perrank 0 perstep -2132900544
+perrank 32000004 perstep -2132900544
+perrank 96000012 perstep -2132900544
+perrank 64000008 perstep -2132900544
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 580 writing output step     58
+perrank 0 perstep -1940900520
+perrank 96000012 perstep -1940900520
+perrank 64000008 perstep -1940900520
+perrank 32000004 perstep -1940900520
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 590 writing output step     59
+perrank 0 perstep -1748900496
+perrank 32000004 perstep -1748900496
+perrank 64000008 perstep -1748900496
+perrank 96000012 perstep -1748900496
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 600 writing output step     60
+perrank 0 perstep -1556900472
+perrank 96000012 perstep -1556900472
+perrank 64000008 perstep -1556900472
+perrank 32000004 perstep -1556900472
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 610 writing output step     61
+perrank 0 perstep -1364900448
+perrank 96000012 perstep -1364900448
+perrank 64000008 perstep -1364900448
+perrank 32000004 perstep -1364900448
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 620 writing output step     62
+perrank 0 perstep -1172900424
+perrank 64000008 perstep -1172900424
+perrank 32000004 perstep -1172900424
+perrank 96000012 perstep -1172900424
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 630 writing output step     63
+perrank 32000004 perstep -980900400
+perrank 64000008 perstep -980900400
+perrank 0 perstep -980900400
+perrank 96000012 perstep -980900400
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 640 writing output step     64
+perrank 32000004 perstep -788900376
+perrank 0 perstep -788900376
+perrank 64000008 perstep -788900376
+perrank 96000012 perstep -788900376
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 650 writing output step     65
+perrank 0 perstep -596900352
+perrank 96000012 perstep -596900352
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 32000004 perstep -596900352
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 64000008 perstep -596900352
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 660 writing output step     66
+perrank 0 perstep -404900328
+perrank 64000008 perstep -404900328
+perrank 32000004 perstep -404900328
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep -404900328
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 670 writing output step     67
+perrank 0 perstep -212900304
+perrank 32000004 perstep -212900304
+perrank 96000012 perstep -212900304
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 64000008 perstep -212900304
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 680 writing output step     68
+perrank 0 perstep -20900280
+perrank 32000004 perstep -20900280
+perrank 64000008 perstep -20900280
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep -20900280
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 690 writing output step     69
+perrank 32000004 perstep 171099744
+perrank 0 perstep 171099744
+perrank 64000008 perstep 171099744
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep 171099744
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 700 writing output step     70
+perrank 0 perstep 363099768
+perrank 32000004 perstep 363099768
+perrank 64000008 perstep 363099768
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep 363099768
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 710 writing output step     71
+perrank 0 perstep 555099792
+perrank 64000008 perstep 555099792
+perrank 96000012 perstep 555099792
+perrank 32000004 perstep 555099792
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 720 writing output step     72
+perrank 64000008 perstep 747099816
+perrank 32000004 perstep 747099816
+perrank 0 perstep 747099816
+perrank 96000012 perstep 747099816
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 730 writing output step     73
+perrank 0 perstep 939099840
+perrank 96000012 perstep 939099840
+perrank 64000008 perstep 939099840
+perrank 32000004 perstep 939099840
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 740 writing output step     74
+perrank 0 perstep 1131099864
+perrank 32000004 perstep 1131099864
+perrank 64000008 perstep 1131099864
+perrank 96000012 perstep 1131099864
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 750 writing output step     75
+perrank 0 perstep 1323099888
+perrank 96000012 perstep 1323099888
+perrank 32000004 perstep 1323099888
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 64000008 perstep 1323099888
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 760 writing output step     76
+perrank 64000008 perstep 1515099912
+perrank 0 perstep 1515099912
+perrank 32000004 perstep 1515099912
+perrank 96000012 perstep 1515099912
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 770 writing output step     77
+perrank 0 perstep 1707099936
+perrank 64000008 perstep 1707099936
+perrank 96000012 perstep 1707099936
+perrank 32000004 perstep 1707099936
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 780 writing output step     78
+perrank 0 perstep 1899099960
+perrank 32000004 perstep 1899099960
+perrank 64000008 perstep 1899099960
+perrank 96000012 perstep 1899099960
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 790 writing output step     79
+perrank 64000008 perstep 2091099984
+perrank 0 perstep 2091099984
+perrank 32000004 perstep 2091099984
+perrank 96000012 perstep 2091099984
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 800 writing output step     80
+perrank 0 perstep -2011867288
+perrank 32000004 perstep -2011867288
+perrank 64000008 perstep -2011867288
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep -2011867288
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 810 writing output step     81
+perrank 0 perstep -1819867264
+perrank 96000012 perstep -1819867264
+perrank 64000008 perstep -1819867264
+perrank 32000004 perstep -1819867264
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 820 writing output step     82
+perrank 64000008 perstep -1627867240
+perrank 0 perstep -1627867240
+perrank 96000012 perstep -1627867240
+perrank 32000004 perstep -1627867240
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 830 writing output step     83
+perrank 96000012 perstep -1435867216
+perrank 64000008 perstep -1435867216
+perrank 0 perstep -1435867216
+perrank 32000004 perstep -1435867216
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 840 writing output step     84
+perrank 0 perstep -1243867192
+perrank 32000004 perstep -1243867192
+perrank 96000012 perstep -1243867192
+perrank 64000008 perstep -1243867192
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 850 writing output step     85
+perrank 96000012 perstep -1051867168
+perrank 0 perstep -1051867168
+perrank 64000008 perstep -1051867168
+perrank 32000004 perstep -1051867168
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 860 writing output step     86
+perrank 64000008 perstep -859867144
+perrank 0 perstep -859867144
+perrank 32000004 perstep -859867144
+perrank 96000012 perstep -859867144
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 870 writing output step     87
+perrank 32000004 perstep -667867120
+perrank 0 perstep -667867120
+perrank 64000008 perstep -667867120
+perrank 96000012 perstep -667867120
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 880 writing output step     88
+perrank 32000004 perstep -475867096
+perrank 96000012 perstep -475867096
+perrank 0 perstep -475867096
+perrank 64000008 perstep -475867096
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 890 writing output step     89
+perrank 0 perstep -283867072
+perrank 32000004 perstep -283867072
+perrank 64000008 perstep -283867072
+perrank 96000012 perstep -283867072
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 900 writing output step     90
+perrank 0 perstep -91867048
+perrank 32000004 perstep -91867048
+perrank 64000008 perstep -91867048
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep -91867048
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 910 writing output step     91
+perrank 96000012 perstep 100132976
+perrank 0 perstep 100132976
+perrank 64000008 perstep 100132976
+perrank 32000004 perstep 100132976
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 920 writing output step     92
+perrank 64000008 perstep 292133000
+perrank 32000004 perstep 292133000
+perrank 96000012 perstep 292133000
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 0 perstep 292133000
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 930 writing output step     93
+perrank 0 perstep 484133024
+perrank 64000008 perstep 484133024
+perrank 96000012 perstep 484133024
+perrank 32000004 perstep 484133024
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 940 writing output step     94
+perrank 32000004 perstep 676133048
+perrank 0 perstep 676133048
+perrank 64000008 perstep 676133048
+perrank 96000012 perstep 676133048
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 950 writing output step     95
+perrank 0 perstep 868133072
+perrank 64000008 perstep 868133072
+perrank 32000004 perstep 868133072
+perrank 96000012 perstep 868133072
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 960 writing output step     96
+perrank 0 perstep 1060133096
+perrank 64000008 perstep 1060133096
+perrank 96000012 perstep 1060133096
+perrank 32000004 perstep 1060133096
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 970 writing output step     97
+perrank 32000004 perstep 1252133120
+perrank 64000008 perstep 1252133120
+perrank 0 perstep 1252133120
+perrank 96000012 perstep 1252133120
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 980 writing output step     98
+perrank 0 perstep 1444133144
+perrank 96000012 perstep 1444133144
+perrank 64000008 perstep 1444133144
+perrank 32000004 perstep 1444133144
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 990 writing output step     99
+perrank 0 perstep 1636133168
+perrank 64000008 perstep 1636133168
+perrank 32000004 perstep 1636133168
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+perrank 96000012 perstep 1636133168
+u size 2000000 v size 2000000 step size 4 Total size32000004
+Simulation at step 1000 writing output step     100
+perrank 0 perstep 1828133192
+perrank 64000008 perstep 1828133192
+perrank 32000004 perstep 1828133192
+perrank 96000012 perstep 1828133192
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
+u size 2000000 v size 2000000 step size 4 Total size32000004
