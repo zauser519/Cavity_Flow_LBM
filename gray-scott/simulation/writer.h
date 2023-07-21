@@ -7,13 +7,22 @@
 #include "../../gray-scott/simulation/gray-scott.h"
 #include "../../gray-scott/simulation/settings.h"
 
+#define LID 2
+#define WALL 1
+#define FLUID 0
+
+#define nx 100
+#define ny 100
+#define nz 100
+#define direc 19
+
 class Writer
 {
 public:
-    Writer(const Settings &settings, const GrayScott &sim, adios2::IO io);
-    void Wopen(const std::string &fname, bool append);
-    void Wwrite(int step, const GrayScott &sim, int fd);
-    void Wclose(int fd);
+    Writer(const Settings &settings, adios2::IO io);
+    void open(const std::string &fname);
+    void write(double u[100][100][100], double v[100][100][100], double w[100][100][100], double rho[100][100][100], int step);
+    void close();
 
 protected:
     Settings settings;
@@ -22,6 +31,8 @@ protected:
     adios2::Engine writer;
     adios2::Variable<double> var_u;
     adios2::Variable<double> var_v;
+    adios2::Variable<double> var_w;
+    adios2::Variable<double> var_rho;
     adios2::Variable<int> var_step;
 };
 
