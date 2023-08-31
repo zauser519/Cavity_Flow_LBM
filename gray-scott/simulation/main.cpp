@@ -18,15 +18,6 @@
 #include "../../gray-scott/simulation/writer.h"
 
 
-#define LID 2
-#define WALL 1
-#define FLUID 0
-
-#define nx 100
-#define ny 100
-#define nz 100
-#define direc 19
-
 void init_geo(int wall[nz][ny][nx]);
 
 void init(int wall[nz][ny][nx], double u[nz][ny][nx], double v[nz][ny][nx], double w[nz][ny][nx], double rho[nz][ny][nx], double f[direc][nz][ny][nx], double ft[direc][nz][ny][nx],
@@ -38,13 +29,12 @@ void collision_bc(int wall[nz][ny][nx], double u[nz][ny][nx], double v[nz][ny][n
                   double ow, double ow1);
 
 
-int wall[nz][ny][nx];
-double ft[direc][nz][ny][nx];
-double f[direc][nz][ny][nx], u[nz][ny][nx], v[nz][ny][nx], w[nz][ny][nx], rho[nz][ny][nx];
+  int wall[nz][ny][nx];
+  double ft[direc][nz][ny][nx];
+  double f[direc][nz][ny][nx], u[nz][ny][nx], v[nz][ny][nx], w[nz][ny][nx], rho[nz][ny][nx];
 
 int main(int argc, char *argv[])
 {
-  std::cout << "Start" << std::endl;
   //MPI for ADIOS2
   int provided;
   MPI_Init_thread(&argc, &argv, MPI_THREAD_MULTIPLE, &provided);
@@ -59,7 +49,6 @@ int main(int argc, char *argv[])
   MPI_Comm_rank(comm, &rank);
   MPI_Comm_size(comm, &procs);
 
-  std::cout << "Finished MPI" << std::endl;
   //ADIOS2
   Settings settings = Settings::from_json(argv[1]);
 
@@ -67,7 +56,6 @@ int main(int argc, char *argv[])
   adios2::IO io_main = adios.DeclareIO("SimulationOutput");
   adios2::IO io_ckpt = adios.DeclareIO("SimulationCheckpoint");
 
-  std::cout << "Finished ADIOS2 settings" << std::endl;
 
 
   //--------------------------------------------------------------------------------------------------
@@ -85,24 +73,20 @@ int main(int argc, char *argv[])
   double omega = 1.0 / tau;
   double ow1 = (1.0f - omega);
   double ow = omega;
-  std::cout << "Finished Variable settings" << std::endl;
 
   //adios2
   Writer writer_main(settings, io_main);
   writer_main.open(settings.output);
-  std::cout << "Finished open" << std::endl;
 
   //-------------------------------------------------------------------------------------------------------
   // geo define
 
   init_geo(wall);
-  std::cout << "Finished init_geo" << std::endl;
   //-------------------------------------------------------------------------------------------------------
 
   // initialization
 
   init(wall, u, v, w, rho, f, ft, rho_0, u_0);
-  std::cout << "Finished init" << std::endl;
 
   //-------------------------------------------------------------------------------------------------------
   // loop
@@ -115,13 +99,12 @@ int main(int argc, char *argv[])
     Timer timer_write;
 
     std::ostringstream log_fname;
-    log_fname << "gray_scott_pe_" << rank << ".log";
+    log_fname << "/home/gp.sc.cc.tohoku.ac.jp/tseng/ADIOS2/Tutorial/VH2/share/adios2-examples/gray-scott/gray_scott_pe_" << rank << ".log";
 
     std::ofstream log(log_fname.str());
     log << "step\ttotal_gs\tcompute_gs\twrite_gs" << std::endl;
 #endif
 
-  std::cout << "start loop" << std::endl;
   for (atime = 0; atime <= time_max; atime++)
   {
 #ifdef ENABLE_TIMERS
@@ -132,9 +115,7 @@ int main(int argc, char *argv[])
 
     stream(f, ft);
 
-  std::cout << "Finished stream" << std::endl;
     collision_bc(wall, u, v, w, rho, f, ft, rho_0, u_0, ow, ow1);
-  std::cout << "collision_bc" << std::endl;
 
 #ifdef ENABLE_TIMERS
         timer_compute.stop();
@@ -173,6 +154,7 @@ int main(int argc, char *argv[])
 
     log.close();
 #endif
+
     MPI_Finalize();
 
   return 0;
