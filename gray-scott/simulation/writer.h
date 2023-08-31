@@ -21,7 +21,7 @@ class Writer
 public:
     Writer(const Settings &settings, adios2::IO io);
     void open(const std::string &fname);
-    void write(double u[100][100][100], double v[100][100][100], double w[100][100][100], double rho[100][100][100], int step);
+    void write(double u[nz][ny][nx], double v[nz][ny][nx], double w[nz][ny][nx], double rho[nz][ny][nx], int step);
     void close();
 
 protected:
